@@ -1,0 +1,140 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.popup {
+  background-color: #F8F9FA;
+  padding: 60px 48px;
+  border-radius: 32px;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.closeBtn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: none;
+  border: none;
+  color: #00000033;
+  cursor: pointer;
+  padding: 8px;
+  transition: color 0.2s;
+}
+
+.closeBtn:hover {
+  color: #000000;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.serifItalic {
+  font-family: var(--font-playfair), serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #6C6C93;
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: 800;
+  color: #00008C;
+  letter-spacing: -1.5px;
+  margin: 0;
+  line-height: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputGroup {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 20px 24px;
+  background-color: #E7E9EC;
+  border: none;
+  border-radius: 100px;
+  font-size: 14px;
+  color: #00008C;
+  font-weight: 500;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.input::placeholder {
+  color: #6C6C93;
+}
+
+.input:focus {
+  background-color: #DFE2E6;
+}
+
+.submitBtn {
+  margin-top: 16px;
+  background-color: #0000CC;
+  color: #FFFFFF;
+  border: none;
+  padding: 20px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.submitBtn:hover {
+  background-color: #00008C;
+  transform: translateY(-2px);
+}
+
+.submitBtn:active {
+  transform: translateY(0);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .popup {
+    margin: 20px;
+    padding: 40px 24px;
+  }
+  
+  .headline {
+    font-size: 36px;
+  }
+}

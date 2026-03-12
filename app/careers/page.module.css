@@ -1,0 +1,666 @@
+.careersPage {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  color: #001C66;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 48px);
+  max-width: 1608px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 8px 0 32px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50px;
+  margin-bottom: 80px;
+  background: #0517C7;
+  backdrop-filter: blur(40px);
+  z-index: 9999;
+}
+
+.logoNav {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFFCC;
+  transition: color 0.2s ease;
+  line-height: 100%;
+  letter-spacing: -3%;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  color: #fff;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btnContact {
+  border-radius: 60px;
+  background: #FFFFFFF2;
+  backdrop-filter: blur(40px);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  color: #002380;
+  padding: 13.5px 70.5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Hero Section */
+.careersHero {
+  position: relative;
+  height: 900px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 48px;
+}
+
+.heroBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(119.83deg, #000F9E 0.91%, rgba(3, 0, 4, 0.0249294) 100%);
+  opacity: 0.85;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.heroText {
+  max-width: 800px;
+}
+
+.heroBadge {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #FFFFFF;
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 14px;
+  width: fit-content;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.badgeIcon {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.heroHeadline {
+  font-size: 84px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  margin-bottom: 40px;
+}
+
+.serifItalic {
+  font-family: serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.infoBtn {
+  background: transparent;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 16px 32px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s;
+}
+
+.infoBtn span {
+  font-size: 20px;
+}
+
+.infoBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #FFFFFF;
+}
+
+/* Vacancies Section */
+.vacanciesSection {
+  padding: 120px 48px;
+  background-color: #FFFFFF;
+}
+
+.vacanciesContent {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.vacanciesHeader {
+  margin-bottom: 80px;
+}
+
+.vacanciesBadge {
+  color: #0013CC;
+  border: 1px solid rgba(0, 19, 204, 0.2);
+  padding: 4px 16px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  width: fit-content;
+  margin-bottom: 24px;
+}
+
+.vacanciesHeadline {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #0013CC;
+}
+
+.vacanciesList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.vacancyCard {
+  display: grid;
+  grid-template-columns: 560px 1fr;
+  gap: 0;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  min-height: 460px;
+}
+
+.vacancyImageWrapper {
+  position: relative;
+  height: 100%;
+}
+
+.vacancyImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageGradientOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Individual card gradients */
+.javaCard .imageGradientOverlay {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 42.89%, #009CCC 94.71%);
+}
+
+.androidCard .imageGradientOverlay {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #032525 93.54%);
+}
+
+.iosCard .imageGradientOverlay {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 37.02%, #2306C6 100%);
+}
+
+.salesCard .imageGradientOverlay {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 47.38%, rgba(220, 86, 14, 0.8) 91.61%);
+}
+
+.vacancyInfo {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vacancyTitleRow {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.vacancyTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0013CC;
+}
+
+.vacancyDivider {
+  height: 1px;
+  background: #EBEBEB;
+  width: 100%;
+}
+
+.vacancyBody {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 40px;
+  flex-grow: 1;
+}
+
+.sidebarLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid #EBEBEB;
+  border-radius: 8px;
+}
+
+.sidebarLinks li {
+  font-size: 14px;
+  color: #1A1736;
+  opacity: 0.7;
+}
+
+.vacancyDescriptionCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.vacancyDescriptionText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #1A1736;
+  background: rgba(0, 19, 204, 0.05);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 19, 204, 0.1);
+}
+
+.resumeBtn {
+  background: #FFFFFF;
+  color: #0013CC;
+  border: 1px solid #0013CC;
+  padding: 16px 32px;
+  border-radius: 100px;
+  font-size: 16px;
+  font-weight: 600;
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.2s;
+  margin-top: 24px;
+}
+
+.resumeBtn:hover {
+  background: #0013CC;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+  .vacancyCard {
+    grid-template-columns: 400px 1fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vacancyCard {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .vacancyImageWrapper {
+    height: 300px;
+  }
+
+  .vacancyBody {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .vacanciesHeadline {
+    font-size: 32px;
+  }
+
+  .vacancyInfo {
+    padding: 24px;
+  }
+
+  .vacancyTitle {
+    font-size: 24px;
+  }
+}
+
+/* Final CTA Section (Reused) */
+.finalCtaSection {
+  background-color: #00008C;
+  padding: 120px 0;
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  margin: 48px;
+  border-radius: 48px;
+}
+
+.finalCtaBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.finalCtaBgCircle1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(36, 36, 255, 0) 0%, #2424FF 100%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
+}
+
+.finalCtaBgCircle2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1200px;
+  height: 1200px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(36, 36, 255, 0) 0%, rgba(36, 36, 255, 0.5) 100%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+}
+
+.finalCtaContent {
+  position: relative;
+  z-index: 10;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.finalCtaHeadline {
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -2px;
+  max-width: 1000px;
+}
+
+.finalCtaHeadline em {
+  font-family: serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.finalCtaDescription {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #FFFFFFB2;
+  max-width: 700px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.finalCtaBtn {
+  background-color: #FFFFFF;
+  color: #00008C;
+  padding: 20px 56px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 18px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.finalCtaIllustration {
+  position: absolute;
+  bottom: -50px;
+  right: 50px;
+  width: 500px;
+  height: 400px;
+  z-index: 5;
+}
+
+/* Footer */
+.footerSection {
+  background-color: #FFFFFF;
+  padding: 80px 0 40px;
+  border-top: 1px solid rgba(0, 0, 140, 0.05);
+  color: #00008C;
+}
+
+.footerContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footerLogo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #00008C;
+}
+
+.footerColumns {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerColumnTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00008C;
+  margin-bottom: 4px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footerLink {
+  font-size: 14px;
+  color: #6C6C93;
+  text-decoration: none;
+}
+
+.footerLocation {
+  font-size: 14px;
+  color: #6C6C93;
+  line-height: 1.6;
+  max-width: 250px;
+}
+
+.footerMiddle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(0, 0, 140, 0.1);
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactLabel {
+  font-size: 14px;
+  color: #6C6C93;
+}
+
+.contactValue {
+  font-size: 48px;
+  font-weight: 700;
+  color: #0013CC;
+  text-decoration: none;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcon {
+  width: 48px;
+  height: 48px;
+  background-color: #0013CC;
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #6C6C93;
+  padding-top: 20px;
+}
+
+@media (max-width: 1024px) {
+
+  .heroHeadline,
+  .finalCtaHeadline {
+    font-size: 64px;
+  }
+
+  .navLinks {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .heroHeadline,
+  .finalCtaHeadline {
+    font-size: 48px;
+  }
+
+  .careersHero {
+    height: 700px;
+  }
+
+  .finalCtaDescription {
+    font-size: 14px;
+  }
+
+  .finalCtaIllustration {
+    display: none;
+  }
+}
