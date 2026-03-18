@@ -1,0 +1,142 @@
+{
+  "header": {
+    "about": "About",
+    "service": "Service",
+    "projects": "Projects",
+    "clients": "Clients",
+    "contact": "Contact",
+    "english": "English",
+    "uzbek": "Uzbek",
+    "russian": "Russian"
+  },
+  "footer": {
+    "sections": "Sections",
+    "service": "Service",
+    "location": "Location",
+    "mail": "Mail",
+    "phone": "Phone",
+    "social": "Social media",
+    "websites": "Websites",
+    "mobileApps": "Mobile Apps",
+    "ecommerce": "E-commerce",
+    "crm": "CRM",
+    "erp": "ERP",
+    "address": "Tashkent city, Chilanzar district, Qatortol MFY, Block 9, Building 1-B"
+  },
+  "contact": {
+    "label": "Contact",
+    "weWill": "We will",
+    "contactYou": "Contact you",
+    "subtitle": "Have a project in mind? Fill out the form and we'll get back to you within 24 hours.",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "Phone number",
+    "messagePlaceholder": "Tell us about your project",
+    "send": "Send Message",
+    "success": "Your message has been sent successfully!",
+    "successSub": "We will contact you shortly.",
+    "errorEmpty": "Please fill in all fields.",
+    "errorGeneral": "Failed to send message. Please try again.",
+    "features": {
+      "response": "Response within 24 hours",
+      "consultation": "Free consultation",
+      "estimate": "Detailed project estimate"
+    }
+  },
+  "services": {
+    "label": "Services",
+    "mainTitle": "We provide end to end digital services tailored to your business goals",
+    "list": {
+      "websites": {
+        "title": "Websites",
+        "description": "We create custom websites that are tailored to your business goals. Our websites are designed to be user-friendly, responsive, and optimized for search engines."
+      },
+      "ecommerce": {
+        "title": "E-commerce",
+        "description": "Scale your business with professional e-commerce solutions. We build secure, scalable, and high-converting online stores that drive growth."
+      },
+      "mobileApps": {
+        "title": "Mobile Apps",
+        "description": "Reach your customers anywhere with custom mobile applications. We develop high-performance iOS and Android apps with seamless user experiences."
+      },
+      "crm": {
+        "title": "CRM",
+        "description": "Streamline your business operations with custom CRM solutions. We build powerful, scalable, and easy-to-use CRM systems that help you manage customer relationships and drive growth."
+      },
+      "erp": {
+        "title": "ERP",
+        "description": "Transform your business with our custom ERP solutions. We build powerful, scalable, and easy-to-use ERP systems that help you manage your entire business operations and drive growth."
+      }
+    }
+  },
+  "clients": {
+    "label": "Clients",
+    "title": "Our Clients"
+  },
+  "partners": {
+    "label": "Partners",
+    "title": "Our Partners"
+  },
+  "projects": {
+    "label": "◯ Our Projects",
+    "title": "A selection of projects we’ve built across different industries and technologies",
+    "list": {
+      "expert_test": {
+        "title": "Expert Test",
+        "description": "Expert Test is an online examination platform. It helps students and professionals to test their knowledge with timed assignments and detailed results."
+      },
+      "techjobs": {
+        "title": "TechJobs",
+        "description": "TechJobs is a recruitment platform for tech professionals. It connects the world's best developers with top tech companies through a streamlined hiring process."
+      },
+      "smart_taxi": {
+        "title": "Smart Taxi"
+      },
+      "uzcont_play": {
+        "title": "UzCont Play"
+      }
+    }
+  },
+  "about": {
+    "label": "◯ About",
+    "title": "We create solutions that improve processes and deliver real value",
+    "grid": {
+      "item1": "Listening to the client and deeply understanding the problem",
+      "item2": "Developing a clear plan and a strong technical solution",
+      "item3": "Building the product through a transparent and structured process",
+      "item4": "Testing the result and delivering a fully ready final product"
+    },
+    "footer": "By combining innovative thinking and reliable technology, we create digital solutions that help businesses build stronger, smarter and more competitive products."
+  },
+  "hero": {
+    "title_part1": "Powerful digital",
+    "title_and": "and",
+    "title_part2": "IT Solutions",
+    "title_for": "for",
+    "title_part3": "modern Growing Businesses",
+    "description": "We help businesses move faster with clear and efficient IT solutions. Devline combines modern technology with a simple approach to create digital products that are reliable, secure, and ready to scale.",
+    "get_quote": "Get a quote",
+    "view_services": "View services",
+    "features": {
+      "clean_architecture": {
+        "title": "Clean Architecture",
+        "description": "Our systems are built with clean, scalable, and well-structured architecture for long-term stability."
+      },
+      "transparent_process": {
+        "title": "Transparent Process",
+        "description": "You stay informed at every stage through open communication and clear project milestones."
+      },
+      "reliable_results": {
+        "title": "Reliable Results",
+        "description": "We focus on solutions that work consistently and support real business growth."
+      }
+    }
+  },
+  "contactPage": {
+    "badge": "Free consultation",
+    "title1": "Get in",
+    "title2": "touch",
+    "description": "Ready to take your project to the next level? Contact us now and get a free consultation.",
+    "contactBtn": "Contact us",
+    "portfolioBtn": "View portfolio"
+  }
+}

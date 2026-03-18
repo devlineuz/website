@@ -1,0 +1,142 @@
+{
+  "header": {
+    "about": "Biz haqimizda",
+    "service": "Xizmatlar",
+    "projects": "Loyihalar",
+    "clients": "Mijozlar",
+    "contact": "Bog'lanish",
+    "english": "English",
+    "uzbek": "Uzbek",
+    "russian": "Russian"
+  },
+  "footer": {
+    "sections": "Bo'limlar",
+    "service": "Xizmat ko'rsatish",
+    "location": "Manzil",
+    "mail": "Elektron pochta",
+    "phone": "Telefon",
+    "social": "Ijtimoiy tarmoqlar",
+    "websites": "Veb-saytlar",
+    "mobileApps": "Mobil ilovalar",
+    "ecommerce": "Elektron tijorat",
+    "crm": "CRM tizimlari",
+    "erp": "ERP tizimlari",
+    "address": "Toshkent shahri, Chilonzor tumani, Qatortol MFY, 9 mavzesi, 1-B-uy"
+  },
+  "contact": {
+    "label": "Bog'lanish",
+    "weWill": "Biz siz bilan",
+    "contactYou": "Bog'lanamiz",
+    "subtitle": "Loyihangiz bormi? Formani to'ldiring va biz 24 soat ichida javob beramiz.",
+    "namePlaceholder": "Ismingiz",
+    "phonePlaceholder": "Telefon raqamingiz",
+    "messagePlaceholder": "Loyihangiz haqida aytib bering",
+    "send": "Xabar yuborish",
+    "success": "Xabaringiz muvaffaqiyatli yuborildi!",
+    "successSub": "Tez orada siz bilan bog'lanamiz.",
+    "errorEmpty": "Iltimos, barcha maydonlarni to'ldiring.",
+    "errorGeneral": "Xabar yuborishda xatolik yuz berdi. Qaytadan urinib ko'ring.",
+    "features": {
+      "response": "24 soat ichida javob",
+      "consultation": "Bepul konsultatsiya",
+      "estimate": "Batafsil loyiha bahosi"
+    }
+  },
+  "services": {
+    "label": "Xizmatlar",
+    "mainTitle": "Biz sizning biznes maqsadlaringizga moslashtirilgan to'liq raqamli xizmatlarni taqdim etamiz",
+    "list": {
+      "websites": {
+        "title": "Veb-saytlar",
+        "description": "Biz sizning biznes maqsadlaringizga moslashtirilgan maxsus veb-saytlarni yaratamiz. Bizning veb-saytlarimiz foydalanuvchilar uchun qulay, moslashuvchan va qidiruv tizimlari uchun optimallashtirilgan."
+      },
+      "ecommerce": {
+        "title": "Elektron tijorat",
+        "description": "Biznesingizni professional elektron tijorat echimlari bilan kengaytiring. Biz o'sishni ta'minlaydigan xavfsiz, kengaytiriladigan va yuqori konversiyali onlayn do'konlarni quramiz."
+      },
+      "mobileApps": {
+        "title": "Mobil ilovalar",
+        "description": "Maxsus mobil ilovalar yordamida mijozlaringizga istalgan joyda yetib boring. Biz uzluksiz foydalanuvchi tajribasiga ega yuqori samarali iOS va Android ilovalarini ishlab chiqamiz."
+      },
+      "crm": {
+        "title": "CRM",
+        "description": "Maxsus CRM yechimlari bilan biznes operatsiyalaringizni soddalashtiring. Biz mijozlar bilan munosabatlarni boshqarish va o'sishni ta'minlashga yordam beradigan kuchli, kengaytiriladigan va foydalanishda qulay CRM tizimlarini quramiz."
+      },
+      "erp": {
+        "title": "ERP",
+        "description": "Bizning maxsus ERP yechimlarimiz bilan biznesingizni o'zgartiring. Biz butun biznes operatsiyalaringizni boshqarish va o'sishni ta'minlashga yordam beradigan kuchli, kengaytiriladigan va foydalanishda qulay ERP tizimlarini quramiz."
+      }
+    }
+  },
+  "clients": {
+    "label": "Mijozlar",
+    "title": "Bizning mijozlar"
+  },
+  "partners": {
+    "label": "Hamkorlar",
+    "title": "Bizning hamkorlar"
+  },
+  "projects": {
+    "label": "◯ Bizning loyihalar",
+    "title": "Turli sohalar va texnologiyalarda amalga oshirilgan loyihalarimiz",
+    "list": {
+      "expert_test": {
+        "title": "Expert Test",
+        "description": "Expert Test - bu onlayn imtihon topshirish platformasi. U talabalar va mutaxassislarga o'z bilimlarini vaqtli topshiriqlar va batafsil natijalar orqali sinab ko'rishga yordam beradi."
+      },
+      "techjobs": {
+        "title": "TechJobs",
+        "description": "TechJobs - bu texnologiya mutaxassislari uchun ishga joylashish platformasi. U dunyoning eng yaxshi dasturchilarini yetakchi texnologik kompaniyalar bilan bog'laydi."
+      },
+      "smart_taxi": {
+        "title": "Smart Taxi"
+      },
+      "uzcont_play": {
+        "title": "UzCont Play"
+      }
+    }
+  },
+  "about": {
+    "label": "◯ Biz haqimizda",
+    "title": "Biz jarayonlarni yaxshilaydigan va haqiqiy qiymat beradigan yechimlar yaratamiz",
+    "grid": {
+      "item1": "Mijozni tinglash va muammoni chuqur tushunish",
+      "item2": "Aniq reja va mustahkam texnik echimni ishlab chiqish",
+      "item3": "Mahsulotni shaffof va tizimli jarayon orqali qurish",
+      "item4": "Natijani sinovdan o'tkazish va to'liq tayyor mahsulotni yetkazib berish"
+    },
+    "footer": "Innovatsion fikrlash va ishonchli texnologiyalarni birlashtirgan holda, biz biznesga yanada kuchliroq, aqlliroq va raqobatbardosh mahsulotlar yaratishda yordam beradigan raqamli yechimlar yaratamiz."
+  },
+  "hero": {
+    "title_part1": "Kuchli raqamli",
+    "title_and": "va",
+    "title_part2": "IT Yechimlar",
+    "title_for": "zamonaviy",
+    "title_part3": "O'sib borayotgan Bizneslar uchun",
+    "description": "Biz bizneslarga aniq va samarali IT yechimlari bilan tezroq rivojlanishga yordam beramiz. Devline zamonaviy texnologiyalarni oddiy yondashuv bilan birlashtirib, ishonchli, xavfsiz va kengaytirishga tayyor raqamli mahsulotlarni yaratadi.",
+    "get_quote": "Taklif olish",
+    "view_services": "Xizmatlarni ko'rish",
+    "features": {
+      "clean_architecture": {
+        "title": "Toza Arxitektura",
+        "description": "Bizning tizimlarimiz uzoq muddatli barqarorlik uchun toza, kengaytiriladigan va yaxshi tuzilgan arxitektura bilan qurilgan."
+      },
+      "transparent_process": {
+        "title": "Shaffof Jarayon",
+        "description": "Siz ochiq muloqot va aniq loyiha bosqichlari orqali har bir bosqichda xabardor bo'lib turasiz."
+      },
+      "reliable_results": {
+        "title": "Ishonchli Natijalar",
+        "description": "Biz doimiy ishlaydigan va haqiqiy biznes o'sishini qo'llab-quvvatlaydigan yechimlarga e'tibor qaratamiz."
+      }
+    }
+  },
+  "contactPage": {
+    "badge": "Bepul konsultatsiya",
+    "title1": "Biz bilan",
+    "title2": "bog'laning",
+    "description": "Loyihangizni yangi bosqichga olib chiqishga tayyormisiz? Biz bilan hoziroq bog'laning va bepul konsultatsiyaga ega bo'ling.",
+    "contactBtn": "Bog'lanish",
+    "portfolioBtn": "Portfolio ko'rish"
+  }
+}
