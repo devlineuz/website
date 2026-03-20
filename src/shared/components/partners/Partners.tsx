@@ -30,33 +30,33 @@ const Partners = () => {
     const displayPartners = [...partners, ...partners]
 
     return (
-        <section className='p-[60px_0_80px]'>
+        <section className='py-10 md:py-14 lg:p-[60px_0_80px]'>
             <div className='container'>
-                <div className='flex flex-col gap-[35px]'>
-                    <div className='flex flex-col gap-[88.57px]'>
-                        <p className='inline-block font-medium text-[20px] leading-[20px] tracking-[-0.02em] text-[#667499]'>◯  {t('partners.label')}</p>
-                        <h2 className='font-extrabold text-[64px] leading-[64px] tracking-[-4%] pl-[30px] max-w-[909px] text-[#001C66]'>{t('partners.title')}</h2>
+                <div className='flex flex-col gap-6 md:gap-[35px]'>
+                    <div className='flex flex-col gap-8 md:gap-[88.57px]'>
+                        <p className='inline-block font-medium text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] tracking-[-0.02em] text-[#667499]'>◯  {t('partners.label')}</p>
+                        <h2 className='font-extrabold text-[32px] md:text-[48px] lg:text-[64px] leading-[1.1] tracking-[-4%] pl-0 md:pl-[30px] max-w-[909px] text-[#001C66]'>{t('partners.title')}</h2>
                     </div>
 
                     <div className='overflow-hidden relative'>
                         {/* Gradient overlays for smooth entry/exit */}
-                        <div className='absolute left-0 top-0 bottom-0 w-[100px] z-10 bg-linear-to-r from-white to-transparent pointer-events-none' />
-                        <div className='absolute right-0 top-0 bottom-0 w-[100px] z-10 bg-linear-to-l from-white to-transparent pointer-events-none' />
+                        <div className='absolute left-0 top-0 bottom-0 w-[50px] md:w-[100px] z-10 bg-linear-to-r from-white to-transparent pointer-events-none' />
+                        <div className='absolute right-0 top-0 bottom-0 w-[50px] md:w-[100px] z-10 bg-linear-to-l from-white to-transparent pointer-events-none' />
 
-                        <div className='flex w-max animate-scroll hover:[animation-play-state:paused] py-4 my-26'>
+                        <div className='flex w-max animate-scroll hover:[animation-play-state:paused] py-4 my-8 md:my-16 lg:my-26'>
                             {displayPartners.map((partner, index) => (
                                 <div
                                     key={index}
-                                    className='flex items-center gap-[12px] px-[40px] shrink-0 hover:opacity-100 transition-all duration-300'
+                                    className='flex items-center gap-[8px] md:gap-[12px] px-[16px] md:px-[30px] lg:px-[40px] shrink-0 hover:opacity-100 transition-all duration-300'
                                 >
-                                    <div className='w-[60px] h-[60px] flex items-center justify-center'>
+                                    <div className='w-[40px] h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] flex items-center justify-center'>
                                         <Image
                                             src={partner.icon}
                                             alt={`${partner.name} icon`}
                                             className='max-h-full w-auto rounded-full'
                                         />
                                     </div>
-                                    <p className='font-semibold text-[48px] leading-[40px] tracking-[-5%] text-[#414158] whitespace-nowrap'>{partner.name}</p>
+                                    <p className='font-semibold text-[24px] md:text-[36px] lg:text-[48px] leading-none tracking-[-5%] text-[#414158] whitespace-nowrap'>{partner.name}</p>
                                 </div>
                             ))}
                         </div>

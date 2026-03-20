@@ -38,28 +38,28 @@ const About = () => {
     ];
 
     return (
-        <section id='about' className='py-[150px_0px] px-4 bg-white overflow-hidden'>
+        <section id='about' className='py-16 md:py-24 lg:py-[150px] px-4 bg-white overflow-hidden'>
             <div className='container mx-auto max-w-[1440px]'>
                 {/* Header with Circle Label */}
-                <div className='flex flex-col gap-10 mb-16'>
+                <div className='flex flex-col gap-6 md:gap-10 mb-10 md:mb-16'>
                     <div className='flex flex-col gap-6'>
                         <div className='flex items-center gap-3 self-start'>
-                            <span className='text-[18px] lg:text-[20px] font-medium text-[#667499] tracking-[-0.02em]'>
+                            <span className='text-[16px] md:text-[18px] lg:text-[20px] font-medium text-[#667499] tracking-[-0.02em]'>
                                 {t('about.label')}
                             </span>
                         </div>
                         <div className='w-full h-px bg-[#E5E7EB]' />
                     </div>
 
-                    <div className='flex flex-col lg:flex-row justify-between items-start gap-12'>
-                        <h2 className='text-[40px] md:text-[56px] lg:text-[64px] font-extrabold text-[#001C66] leading-[1.1] tracking-[-0.04em] max-w-[800px]'>
+                    <div className='flex flex-col lg:flex-row justify-between items-start gap-8 md:gap-12'>
+                        <h2 className='text-[28px] md:text-[44px] lg:text-[64px] font-extrabold text-[#001C66] leading-[1.1] tracking-[-0.04em] max-w-[800px]'>
                             {t('about.title')}
                         </h2>
                     </div>
                 </div>
 
                 {/* Staggered Image Grid */}
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-12 md:mb-24'>
                     {items.map((item, index) => (
                         <motion.div
                             key={index}
@@ -67,7 +67,7 @@ const About = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.6, delay: index * 0.1 }}
-                            className={`relative aspect-387/640 rounded-[32px] overflow-hidden group ${index === 1 ? 'lg:mt-16' : index === 2 ? 'lg:mt-0' : index === 3 ? 'lg:mt-12' : 'lg:mt-4'
+                            className={`relative aspect-387/640 rounded-[20px] md:rounded-[32px] overflow-hidden group ${index === 1 ? 'lg:mt-16' : index === 2 ? 'lg:mt-0' : index === 3 ? 'lg:mt-12' : 'lg:mt-4'
                                 }`}
                         >
                             <Image
@@ -81,8 +81,8 @@ const About = () => {
                                 style={{ background: item.gradient }}
                             />
                             {/* Text Content */}
-                            <div className='absolute bottom-0 left-0 p-8'>
-                                <p className='text-white text-[20px] lg:text-[24px] font-bold leading-tight max-w-[280px]'>
+                            <div className='absolute bottom-0 left-0 p-5 md:p-8'>
+                                <p className='text-white text-[16px] md:text-[20px] lg:text-[24px] font-bold leading-tight max-w-[280px]'>
                                     {item.text}
                                 </p>
                             </div>
@@ -92,7 +92,7 @@ const About = () => {
 
                 {/* Bottom Footer Text */}
                 <div className='flex justify-end'>
-                    <h3 className='text-[32px] md:text-[40px] lg:text-[48px] font-bold text-[#001C66] leading-[1.2] tracking-[-0.02em] max-w-[900px] text-right'>
+                    <h3 className='text-[24px] md:text-[36px] lg:text-[48px] font-bold text-[#001C66] leading-[1.2] tracking-[-0.02em] max-w-[900px] text-right'>
                         {t('about.footer')}
                     </h3>
                 </div>

@@ -42,23 +42,23 @@ const Services = () => {
     ]
 
     return (
-        <section id='services' className='py-[150px] bg-[#000099]'>
+        <section id='services' className='py-16 md:py-24 lg:py-[150px] bg-[#000099]'>
             <div className='container'>
-                <div className='flex flex-col gap-[80px]'>
-                    <div className='flex flex-col gap-[50px] text-white'>
-                        <p className='inline-block font-medium text-[20px] leading-[20px] tracking-[-0.02em] text-[#FFFFFFB2]'>◯  {t('services.label')}</p>
-                        <h2 className='font-extrabold text-[64px] leading-[64px] tracking-[-4%] pl-[30px] max-w-[909px]'>{t('services.mainTitle')}</h2>
+                <div className='flex flex-col gap-10 md:gap-16 lg:gap-[80px]'>
+                    <div className='flex flex-col gap-6 md:gap-[50px] text-white'>
+                        <p className='inline-block font-medium text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] tracking-[-0.02em] text-[#FFFFFFB2]'>◯  {t('services.label')}</p>
+                        <h2 className='font-extrabold text-[28px] md:text-[48px] lg:text-[64px] leading-[1.1] tracking-[-4%] pl-0 md:pl-[30px] max-w-[909px]'>{t('services.mainTitle')}</h2>
                     </div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px]'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-[20px]'>
                         {services.map((service, index) => (
-                            <div key={index} className='bg-[#1313A0] border border-[#FFFFFF1A] backdrop-blur-[20px] rounded-[20px] py-[50px] px-[40px] flex flex-col gap-[30px] hover:bg-[#1a1ab8] transition-all duration-300'>
-                                <div className='flex items-center gap-[20px]'>
-                                    <div className='w-16 h-16 bg-white/10 rounded-xl flex items-center justify-center shrink-0'>
+                            <div key={index} className='bg-[#1313A0] border border-[#FFFFFF1A] backdrop-blur-[20px] rounded-[20px] py-8 px-6 md:py-[50px] md:px-[40px] flex flex-col gap-5 md:gap-[30px] hover:bg-[#1a1ab8] transition-all duration-300'>
+                                <div className='flex items-center gap-4 md:gap-[20px]'>
+                                    <div className='w-12 h-12 md:w-16 md:h-16 bg-white/10 rounded-xl flex items-center justify-center shrink-0'>
                                         {service.icon}
                                     </div>
-                                    <h3 className='font-bold italic text-[40px] leading-[40px] tracking-[-5%]'>{service.title}</h3>
+                                    <h3 className='font-bold italic text-[22px] md:text-[32px] lg:text-[40px] leading-none tracking-[-5%]'>{service.title}</h3>
                                 </div>
-                                <p className='text-[24px] leading-[24px] tracking-[-4%] text-[#FFFFFFB2]'>{service.description}</p>
+                                <p className='text-[16px] md:text-[20px] lg:text-[24px] leading-[1.4] tracking-[-4%] text-[#FFFFFFB2]'>{service.description}</p>
                             </div>
                         ))}
                     </div>
