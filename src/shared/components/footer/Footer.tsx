@@ -3,6 +3,7 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from '../../assets/icons/footer/logo.svg'
+import it_park from '../../assets/icons/footer/it_park.svg'
 import { FaInstagram, FaLinkedinIn, FaTelegramPlane } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 
@@ -14,8 +15,14 @@ const Footer = () => {
       <div className="container">
         {/* Top Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pb-12 md:pb-20 border-b border-[#F2F4F7]">
-          <div className='col-span-2 md:col-span-1'>
-            <Image src={logo} alt="Devline Logo" width={100} height={24} className="mb-6" />
+          <div className='col-span-2 md:col-span-1 flex flex-col gap-6 md:gap-8'>
+            <Image src={logo} alt="Devline Logo" width={100} height={24} />
+            <div className="flex items-center gap-3 bg-white p-2.5 pr-4 rounded-xl shadow-sm border border-[#EAECF0] w-max hover:shadow-md transition-shadow">
+              <Image src={it_park} alt="IT Park Resident" width={36} height={36} className="rounded-md object-contain" />
+              <p className="text-[13px] font-medium text-[#344054] leading-tight w-[100px]">
+                {t('footer.itParkResident')}
+              </p>
+            </div>
           </div>
 
           <div>
@@ -24,7 +31,7 @@ const Footer = () => {
               <li><a href="#about" className="hover:text-[#0000B2] transition-colors">{t('header.about')}</a></li>
               <li><a href="#services" className="hover:text-[#0000B2] transition-colors">{t('header.service')}</a></li>
               <li><a href="#projects" className="hover:text-[#0000B2] transition-colors">{t('header.projects')}</a></li>
-              <li><a href="#clients" className="hover:text-[#0000B2] transition-colors">{t('header.clients')}</a></li>
+              <li><a href="#partners" className="hover:text-[#0000B2] transition-colors">{t('header.partners')}</a></li>
             </ul>
           </div>
 
@@ -48,22 +55,22 @@ const Footer = () => {
         </div>
 
         {/* Middle Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 py-10 md:py-20 border-b border-[#F2F4F7]">
-          <div>
+        <div className="flex flex-col md:flex-row flex-wrap lg:flex-nowrap justify-between gap-8 md:gap-12 py-10 md:py-20 border-b border-[#F2F4F7]">
+          <div className="w-full md:w-[calc(50%-1.5rem)] lg:w-auto">
             <p className="text-[#667085] mb-3 md:mb-4">{t('footer.mail')}</p>
-            <a href="mailto:info@devline.uz" className="text-[22px] md:text-[32px] lg:text-[48px] font-bold text-[#0000B2] hover:underline decoration-2 underline-offset-8 break-all md:break-normal">
+            <a href="mailto:info@devline.uz" className="text-[22px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold text-[#0000B2] hover:underline decoration-2 underline-offset-8 break-all md:break-normal">
               info@devline.uz
             </a>
           </div>
 
-          <div>
+          <div className="w-full md:w-[calc(50%-1.5rem)] lg:w-auto">
             <p className="text-[#667085] mb-3 md:mb-4">{t('footer.phone')}</p>
-            <a href="tel:+782078080" className="text-[22px] md:text-[32px] lg:text-[48px] font-bold text-[#0000B2] whitespace-nowrap">
-              +(99) 011-66-06
+            <a href="tel:+998990116606" className="text-[22px] md:text-[32px] lg:text-[36px] xl:text-[48px] font-bold text-[#0000B2] whitespace-nowrap">
+              +998(99) 011-66-06
             </a>
           </div>
 
-          <div>
+          <div className="w-full lg:w-auto md:mt-4 lg:mt-0">
             <p className="text-[#667085] mb-4 md:mb-6">{t('footer.social')}</p>
             <div className="flex gap-3 md:gap-4">
               <a href="https://www.instagram.com/devlineuz" target="_blank" rel="noopener noreferrer" className="w-11 h-11 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full bg-[#0000B2] flex items-center justify-center text-white hover:bg-[#00008C] transition-all transform hover:scale-110">

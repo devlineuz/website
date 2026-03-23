@@ -3,7 +3,7 @@
     "about": "Biz haqimizda",
     "service": "Xizmatlar",
     "projects": "Loyihalar",
-    "clients": "Mijozlar",
+    "partners": "Hamkorlar",
     "contact": "Bog'lanish",
     "english": "English",
     "uzbek": "Uzbek",
@@ -21,7 +21,8 @@
     "ecommerce": "Elektron tijorat",
     "crm": "CRM tizimlari",
     "erp": "ERP tizimlari",
-    "address": "Toshkent shahri, Chilonzor tumani, Qatortol MFY, 9 mavzesi, 1-B-uy"
+    "address": "Toshkent shahri, Chilonzor tumani, Qatortol MFY, 9 mavzesi, 1-B-uy",
+    "itParkResident": "IT Park rezidenti"
   },
   "contact": {
     "label": "Bog'lanish",
@@ -65,12 +66,12 @@
       "erp": {
         "title": "ERP",
         "description": "Bizning maxsus ERP yechimlarimiz bilan biznesingizni o'zgartiring. Biz butun biznes operatsiyalaringizni boshqarish va o'sishni ta'minlashga yordam beradigan kuchli, kengaytiriladigan va foydalanishda qulay ERP tizimlarini quramiz."
+      },
+      "customDevelopment": {
+        "title": "Custom Development",
+        "description": "Biz biznesingizning aniq ehtiyojlariga moslashtirilgan maxsus dasturiy yechimlarni yaratamiz. Veb-ilovalardan tortib murakkab korporativ tizimlargacha, bizning jamoamiz real biznes qiymatini beradigan yuqori sifatli, kengaytiriladigan va ishonchli dasturiy ta'minotni yetkazib beradi."
       }
     }
-  },
-  "clients": {
-    "label": "Mijozlar",
-    "title": "Bizning mijozlar"
   },
   "partners": {
     "label": "Hamkorlar",

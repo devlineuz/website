@@ -1,5 +1,4 @@
 import Hero from "@/shared/components/hero/Hero";
-import Clients from "../shared/components/clients/Clients";
 import Partners from "../shared/components/partners/Partners";
 import Services from "../shared/components/services/Services";
 import Projects from "../shared/components/projects/Projects";
@@ -13,10 +12,9 @@ export default function Home() {
       <main className="flex w-full flex-col">
         <Hero />
         <About />
-        <Clients />
+        <Partners />
         <Services />
         <Projects />
-        <Partners />
         {/* <ContactSection /> */}
         <ContactSection2 />
       </main>

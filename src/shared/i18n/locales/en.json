@@ -3,7 +3,7 @@
     "about": "About",
     "service": "Service",
     "projects": "Projects",
-    "clients": "Clients",
+    "partners": "Partners",
     "contact": "Contact",
     "english": "English",
     "uzbek": "Uzbek",
@@ -21,7 +21,8 @@
     "ecommerce": "E-commerce",
     "crm": "CRM",
     "erp": "ERP",
-    "address": "Tashkent city, Chilanzar district, Qatortol MFY, Block 9, Building 1-B"
+    "address": "Tashkent city, Almazar district, Small Ring Road 5A",
+    "itParkResident": "IT Park Resident"
   },
   "contact": {
     "label": "Contact",
@@ -65,12 +66,12 @@
       "erp": {
         "title": "ERP",
         "description": "Transform your business with our custom ERP solutions. We build powerful, scalable, and easy-to-use ERP systems that help you manage your entire business operations and drive growth."
+      },
+      "customDevelopment": {
+        "title": "Custom Development",
+        "description": "We build custom software solutions tailored to your specific business needs. From web applications to complex enterprise systems, our team delivers high-quality, scalable, and reliable software that drives real business value."
       }
     }
-  },
-  "clients": {
-    "label": "Clients",
-    "title": "Our Clients"
   },
   "partners": {
     "label": "Partners",

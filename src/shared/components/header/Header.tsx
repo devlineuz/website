@@ -57,7 +57,7 @@ const Header = () => {
                                 <li><a href="#about" className='hover:text-white transition-colors duration-300'>{t('header.about')}</a></li>
                                 <li><a href="#services" className='hover:text-white transition-colors duration-300'>{t('header.service')}</a></li>
                                 <li><a href="#projects" className='hover:text-white transition-colors duration-300'>{t('header.projects')}</a></li>
-                                <li><a href="#clients" className='hover:text-white transition-colors duration-300'>{t('header.clients')}</a></li>
+                                <li><a href="#partners" className='hover:text-white transition-colors duration-300'>{t('header.partners')}</a></li>
                             </ul>
                         </nav>
 
@@ -128,7 +128,7 @@ const Header = () => {
                                 { href: '#about', label: t('header.about') },
                                 { href: '#services', label: t('header.service') },
                                 { href: '#projects', label: t('header.projects') },
-                                { href: '#clients', label: t('header.clients') },
+                                { href: '#partners', label: t('header.partners') },
                             ].map((item, i) => (
                                 <li key={i}>
                                     <a

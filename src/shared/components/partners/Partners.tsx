@@ -2,14 +2,13 @@
 
 import React from 'react'
 import Image from 'next/image'
-import smart_taxi from '../../assets/icons/clients/smart_taxi.svg'
-import techjobs from '../../assets/icons/clients/techjobs.svg'
-import expert_test from '../../assets/icons/clients/expert_test.jpg'
-import jlpt_master from '../../assets/icons/clients/jlpt_master.jpg'
-import quarter_aspect from '../../assets/icons/clients/quarter_aspect.jpg'
-import uzcont_play from '../../assets/icons/clients/uzcont_play.jpg'
+import smart_taxi from '../../assets/icons/partners/smart_taxi.svg'
+import techjobs from '../../assets/icons/partners/techjobs.svg'
+import expert_test from '../../assets/icons/partners/expert_test.jpg'
+import jlpt_master from '../../assets/icons/partners/jlpt_master.jpg'
+import quarter_aspect from '../../assets/icons/partners/quarter_aspect.jpg'
+import uzcont_play from '../../assets/icons/partners/uzcont_play.jpg'
 import najot_talim from '../../assets/icons/partners/najot_talim.svg'
-import it_park from '../../assets/icons/partners/it_park.svg'
 import { useTranslation } from 'react-i18next';
 
 
@@ -19,7 +18,6 @@ const partners = [
     { icon: smart_taxi, name: 'Smart Taxi' },
     { icon: najot_talim, name: "Najot Ta'lim" },
     { icon: techjobs, name: 'Techjobs' },
-    { icon: it_park, name: 'IT Park' },
     { icon: jlpt_master, name: 'JLPT Master' },
     { icon: quarter_aspect, name: 'QUARTER ASPECT' },
 ]
@@ -30,7 +28,7 @@ const Partners = () => {
     const displayPartners = [...partners, ...partners]
 
     return (
-        <section className='py-10 md:py-14 lg:p-[60px_0_80px]'>
+        <section id='partners' className='py-10 md:py-14 lg:p-[60px_0_80px]'>
             <div className='container'>
                 <div className='flex flex-col gap-6 md:gap-[35px]'>
                     <div className='flex flex-col gap-8 md:gap-[88.57px]'>

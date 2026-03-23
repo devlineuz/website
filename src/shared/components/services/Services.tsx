@@ -7,7 +7,8 @@ import {
     HiOutlineShoppingCart,
     HiOutlineDevicePhoneMobile,
     HiOutlineUsers,
-    HiOutlineCircleStack
+    HiOutlineCircleStack,
+    HiOutlineCodeBracket
 } from "react-icons/hi2";
 
 const Services = () => {
@@ -38,7 +39,12 @@ const Services = () => {
             title: t('services.list.erp.title'),
             description: t('services.list.erp.description'),
             icon: <HiOutlineCircleStack size={40} className="text-white" />,
-        }
+        },
+        {
+            title: t('services.list.customDevelopment.title'),
+            description: t('services.list.customDevelopment.description'),
+            icon: <HiOutlineCodeBracket size={40} className="text-white" />,
+        },
     ]
 
     return (
